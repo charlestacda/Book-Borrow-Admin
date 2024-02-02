@@ -1,0 +1,341 @@
+.bg-login {
+	background-image: url("Images/Lpu_bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.mg-100 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.ml-10 {
+  margin-left: 12px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.mg-50 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.mg-40 {
+  margin-top: 40px;
+}
+.mg-20 {
+  margin-top: 20px;
+}
+
+.mg-10 {
+  margin-top: 6px;
+}
+
+.mg-150 {
+  margin-top: 140px;
+}
+
+.cntr {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.sub-color {
+  background-color: #d1e8e4;
+}
+
+.scolor {
+  color: #d1e8e4;
+}
+
+.tb-color {
+  background-color: #ece2e1;
+}
+
+.btnc {
+  background-color: #a1cae2;
+}
+
+.tcolor {
+  color: #1d668c;
+}
+
+.t1color {
+  color: #a62d38;
+}
+
+.color1 {
+  color: white;
+}
+
+.bdcolor1 {
+  border-color: #a62d38;
+}
+.colmargin {
+  position: fixed;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  padding-top: 0.7rem;
+  width: 100%;
+}
+
+.fsizeborder {
+  font-size: 50px;
+}
+
+.fsmainborder {
+  font-size: 25px;
+}
+
+.fsml {
+  font-size: 20px;
+}
+
+.pbtn {
+  background-color: #ece2e1;
+}
+
+.cmodal {
+  background-color: #e4dccf;
+}
+
+/* Style for active link */
+.active-link {
+  background: #ffffff; /* White background */
+  border-radius: 25px; /* Rounded border corners */
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#clock {
+  font-family: "Inter", sans-serif;
+  font-weight: bolder;
+  font-size: 96px;
+  color: rgb(29, 102, 140);
+}
+
+.btn.btn-outline-red {
+  color: #a62d38;
+  border-color: #a62d38;
+}
+
+#wrapper {
+  background-color: #a62d38;
+}
+
+.mainc {
+  background-color: #a62d38;
+}
+
+#content h3 {
+  color: #ffffff;
+}
+
+.sidebar-brand-icon img {
+  width: 50px;
+}
+
+.sidebar-brand-text .com {
+  font-size: 10px;
+}
+
+.faq {
+  color: #d1e8e4;
+}
+
+.topbar #sidebarToggleTop:hover {
+  background-color: #a1cae2;
+}
+
+.topbar #sidebarToggleTop:active {
+  background-color: #a1cae2;
+}
+
+#deptDrop,
+#empBtn,
+.cbtn {
+  background-color: #a1cae2;
+  color: #1d668c;
+}
+.sidesize {
+  font-size: 23px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.center th {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.lm-1 {
+  margin-left: -16px;
+}
+
+*
+  Add
+  this
+  custom
+  CSS
+  to
+  adjust
+  the
+  padding
+  of
+  the
+  button
+  */
+  .custom-btn-padding {
+  padding: 5px 10px; /* Adjust the padding values as per your preference */
+}
+
+/* Add this custom CSS to adjust the padding of the button */
+.custom-btn-padding {
+  padding: 5px 10px; /* Adjust the padding values as per your preference */
+}
+
+/* Custom CSS for the toggle switch */
+.toggle-container {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding: 5px;
+}
+
+.toggle-slider {
+  width: 50px;
+  height: 24px;
+  background-color: #ccc;
+  border-radius: 12px;
+  position: relative;
+  right: 73px;
+}
+
+.toggle-slider:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  transition: all 0.3s ease;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input:checked + .toggle-slider:before {
+  transform: translateX(26px);
+}
+
+.toggle-label {
+  position: absolute;
+  top: 4px;
+  font-size: 16px;
+}
+
+.toggle-label.on {
+  right: 139px;
+}
+
+.toggle-label.off {
+  right: 5px;
+}
+
+.toggle-label input:checked + .toggle-slider:before {
+  background-color: #fff;
+}
+
+/* Default styles for the sidebar items */
+.nav-item.active .nav-link .d-flex {
+  align-items: center;
+}
+
+.nav-item.active .nav-link img {
+  display: inline-block;
+  margin-right: 10px; /* Add some spacing between the image and text */
+}
+
+/* Media query for smaller screen sizes */
+@media (max-width: 768px) {
+  .nav-item.active .nav-link .d-flex {
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 10px 15px; /* Add padding to create space around the content */
+  }
+
+  .nav-item.active .nav-link img {
+    display: block; /* Display the image as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    margin-bottom: 5px; /* Add some spacing at the bottom */
+  }
+
+  .nav-item.active .nav-link .sidesize {
+    display: none; /* Hide the text initially */
+  }
+
+  .sz {
+    display: none;
+  }
+
+  .active-link {
+    border-radius: 50px; /* Rounded border corners */
+  }
+}
+
+/* Regular button style */
+.btn.btn-outline-light.btn-sm {
+  color: #ffffff; /* Set the default text color to white */
+  border-color: #ffffff; /* Set the default border color to white */
+}
+
+/* Hover effect - change text color to red */
+.btn.btn-outline-light.btn-sm:hover {
+  color: #a62d38; /* Set the text color to red on hover */
+}
+
+/* Media query for screens smaller than 576px (e.g., mobile) */
+@media (max-width: 575.98px) {
+  .cardindex {
+    width: 100%;
+  }
+}
+
+/* Media query for screens between 576px and 767.98px (e.g., small tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .cardindex {
+    width: 48%;
+  }
+}
+
+/* Media query for screens between 768px and 991.98px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .cardindex {
+    width: 31.33%;
+  }
+}
+
+/* Media query for screens between 992px and 1199.98px (e.g., medium desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .cardindex {
+    width: 22.66%;
+  }
+}
+
+/* Media query for screens larger than 1200px (e.g., large desktops) */
+@media (min-width: 1200px) {
+  .cardindex {
+    width: 17%;
+  }
+}
+@media (max-width: 767.98px) {
+  .lm-1 {
+    margin-left: -15px;
+  }
+}
